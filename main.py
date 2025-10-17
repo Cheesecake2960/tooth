@@ -15,6 +15,7 @@ class Tooth:
     def seed(self):
         return "".join(self.memory)
 
+    # Generating text
     def generate(self, input: str) -> str:
         self.memory.append(input)
 

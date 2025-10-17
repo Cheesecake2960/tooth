@@ -9,3 +9,10 @@ tooth = Tooth()
 
 tooth.generate("Hello") # Returns 'Toothハ'
 ```
+
+# Customize vocabulary
+```python
+tooth = Tooth(vocab=[
+    "a", "b", "c"
+])
+```
